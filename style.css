@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 1000px;
+}
+.hero_image {
+  position: relative;
+  display: inline-block;
+}
+h1 {
+  font-family: "Vina Sans", sans-serif;
+  color: orangered;
+  text-align: center;
+  font-size: 50px;
+}
+
+body {
+  background-color: beige;
+  margin: 40px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero_text_forside {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-family: monospace;
+  font-size: 40px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+
+  gap: 10px;
+}
+.aktivitets {
+  height: 700px;
+
+  gap: 10px;
+}
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
